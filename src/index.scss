@@ -1,23 +1,4 @@
-body,
-ul,
-li,
-h1 {
-  margin: 0;
-  padding: 0;
-}
-
-button {
-  border: none;
-  background-color: rgba(0, 0, 0, 0);
-}
-
-ul {
-  list-style: none;
-}
-
-* {
-  box-sizing: border-box;
-}
+@use 'base';
 
 body {
   font-family: 'Poppins', sans-serif;
@@ -147,6 +128,11 @@ button.hamburger {
 
 .about {
   text-align: center;
+  display: flex;
+  justify-content: center;
+  width: auto;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .about__image {
@@ -156,4 +142,25 @@ button.hamburger {
 h2 {
   @extend %stylish_heding;
   color: black;
+}
+
+.about__description {
+  max-width: 500px;
+  padding: 3rem;
+}
+
+@media all and (max-width: 768px) {
+  .about__description {
+    max-width: 100%;
+  }
+}
+
+@media all and (max-width: 960px) {
+  .about {
+    flex-direction: column;
+  }
+
+  .about__description {
+    margin: 0 auto;
+  }
 }

@@ -143,6 +143,11 @@ h2, .hero h1 {
 /* About */
 .about {
   text-align: center;
+  display: flex;
+  justify-content: center;
+  width: auto;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .about__image {
@@ -151,6 +156,26 @@ h2, .hero h1 {
 
 h2 {
   color: black;
+}
+
+.about__description {
+  max-width: 500px;
+  padding: 3rem;
+}
+
+@media all and (max-width: 768px) {
+  .about__description {
+    max-width: 100%;
+  }
+}
+@media all and (max-width: 960px) {
+  .about {
+    flex-direction: column;
+  }
+
+  .about__description {
+    margin: 0 auto;
+  }
 }
 
 /*# sourceMappingURL=index.css.map */
