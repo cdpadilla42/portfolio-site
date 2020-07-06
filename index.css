@@ -24,10 +24,10 @@ body {
 }
 
 ::selection {
-  background: rgba(255, 183, 183, 0.8);
+  background: rgba(79, 201, 204, 0.6);
 }
 ::-moz-selection {
-  background: rgba(255, 183, 183, 0.8);
+  background: rgba(79, 201, 204, 0.6);
 }
 
 nav {
@@ -109,7 +109,9 @@ button.hamburger {
 .hero {
   width: 100vw;
   height: 100vh;
-  background-color: salmon;
+  background: url('./assets/hero.jpg');
+  background-position: center;
+  background-size: cover;
 }
 
 .container {
