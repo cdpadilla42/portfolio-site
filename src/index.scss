@@ -149,12 +149,6 @@ h2 {
   padding: 3rem;
 }
 
-@media all and (max-width: 768px) {
-  .about__description {
-    max-width: 100%;
-  }
-}
-
 @media all and (max-width: 960px) {
   .about {
     flex-direction: column;
@@ -162,5 +156,22 @@ h2 {
 
   .about__description {
     margin: 0 auto;
+    padding: 0;
   }
+}
+
+@media all and (max-width: 768px) {
+  .about__description {
+    max-width: 100%;
+  }
+
+  .about__description {
+    padding: 1rem;
+  }
+}
+
+// Uses
+
+.fitebase_icon {
+  height: 20px;
 }
