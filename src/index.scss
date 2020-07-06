@@ -20,19 +20,18 @@ ul {
 }
 
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 ::selection {
   background: rgba(79, 201, 204, 0.6);
 }
-
 ::-moz-selection {
   background: rgba(79, 201, 204, 0.6);
 }
 
 nav {
-  border-bottom: 1px solid #c9c9c9;
+  border-bottom: 1px solid rgb(201, 201, 201);
   display: flex;
   justify-content: center;
   position: fixed;
@@ -56,11 +55,13 @@ nav .container {
     max-width: 962px;
   }
 }
+
 @media all and (min-width: 1200px) {
   nav .container {
     max-width: 1140px;
   }
 }
+
 .logo {
   width: 50px;
   margin: 0 1rem;
@@ -85,11 +86,11 @@ button.hamburger {
   .nav__menu_items {
     display: flex;
   }
-
   .container .hamburger {
     display: none;
   }
 }
+
 .nav__menu_items a {
   display: block;
   text-decoration: none;
@@ -104,10 +105,11 @@ button.hamburger {
 }
 
 /* Hero */
+
 .hero {
   width: 100vw;
   height: 100vh;
-  background: url("./assets/hero.jpg");
+  background: url('./assets/hero.jpg');
   background-position: center;
   background-size: cover;
 }
@@ -124,12 +126,13 @@ button.hamburger {
   text-align: center;
 }
 
-h2, .hero h1 {
+%stylish_heding {
   color: slategray;
   text-shadow: 2px 1px 0 white, 4px 3px 0 slateblue;
 }
 
 .hero h1 {
+  @extend %stylish_heding;
   font-size: 4rem;
   font-style: italic;
 }
@@ -141,6 +144,7 @@ h2, .hero h1 {
 }
 
 /* About */
+
 .about {
   text-align: center;
 }
@@ -150,7 +154,6 @@ h2, .hero h1 {
 }
 
 h2 {
+  @extend %stylish_heding;
   color: black;
 }
-
-/*# sourceMappingURL=index.css.map */
