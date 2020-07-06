@@ -1,0 +1,58 @@
+body,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+nav {
+  background-color: green;
+  display: flex;
+  justify-content: center;
+}
+
+nav .container {
+  display: flex;
+  flex-basis: 1100px;
+  max-width: 100%;
+  justify-content: space-between;
+}
+
+@media all and (min-width: 992px) {
+  nav .container {
+    max-width: 962px;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  nav .container {
+    max-width: 1140px;
+  }
+}
+.logo {
+  width: 50px;
+}
+
+.nav__menu_items {
+  display: flex;
+}
+
+.hamburger[aria-hidden='true'] {
+  display: none;
+}
+
+.nav__menu_items a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  padding: 1rem;
+}
+
+.nav__menu_items a.active {
+  border-bottom: 2px solid salmon;
+  color: salmon;
+}
