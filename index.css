@@ -264,4 +264,16 @@ h2 {
   color: slategray;
 }
 
+.contact_form input,
+.contact_form textarea {
+  width: 100%;
+  padding: 0.8rem;
+  margin: 0.5rem 0;
+  border: 1px solid #bbbbbb;
+  border-radius: 3px;
+}
+.contact_form textarea {
+  resize: none;
+}
+
 /*# sourceMappingURL=index.css.map */

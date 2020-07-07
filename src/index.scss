@@ -269,3 +269,18 @@ h2 {
 .social_icons a {
   color: slategray;
 }
+
+.contact_form {
+  input,
+  textarea {
+    width: 100%;
+    padding: 0.8rem;
+    margin: 0.5rem 0;
+    border: 1px solid rgb(187, 187, 187);
+    border-radius: 3px;
+  }
+
+  textarea {
+    resize: none;
+  }
+}
