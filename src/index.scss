@@ -189,7 +189,9 @@ h2 {
 .uses__icons {
   display: grid;
   width: 100%;
+  padding: 0 10rem;
   grid-template-columns: repeat(4, minmax(125px, 1fr));
+  gap: 1rem;
 }
 
 @media all and (max-width: 1045px) {
@@ -198,6 +200,24 @@ h2 {
   }
 }
 
+@media all and (max-width: 1040px) {
+  .uses__icons {
+    padding: 0 5rem;
+  }
+}
+
 .uses__icons > * {
   border: 1px solid green;
+}
+
+.icons__icon {
+  font-size: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon__title {
+  font-size: 1rem;
 }
