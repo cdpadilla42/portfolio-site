@@ -191,6 +191,7 @@ h2 {
   max-width: 1280px;
   width: 85%;
   margin: 0 auto;
+  text-align: center;
 }
 
 .uses .container {
@@ -244,6 +245,27 @@ h2 {
   @extend %content_container;
 }
 
+.contact {
+  background-color: pink;
+}
+
 .contact .container {
   @extend %content_container;
+}
+
+.social_icons {
+  @extend %stylish_heding;
+  display: flex;
+  width: 200px;
+  justify-content: center;
+  margin: 0 auto;
+  font-size: 2rem;
+}
+
+.social_icons > * {
+  flex: 1;
+}
+
+.social_icons a {
+  color: slategray;
 }

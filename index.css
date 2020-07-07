@@ -124,7 +124,7 @@ button.hamburger {
   text-align: center;
 }
 
-.icons__icon, h2, .hero h1 {
+.social_icons, .icons__icon, h2, .hero h1 {
   color: slategray;
   text-shadow: 2px 1px 0 white, 4px 3px 0 slateblue;
 }
@@ -201,6 +201,7 @@ h2 {
   max-width: 1280px;
   width: 85%;
   margin: 0 auto;
+  text-align: center;
 }
 
 .fitebase_icon {
@@ -241,6 +242,26 @@ h2 {
   font-size: 1rem;
   margin-top: 1rem;
   text-shadow: none;
+}
+
+.contact {
+  background-color: pink;
+}
+
+.social_icons {
+  display: flex;
+  width: 200px;
+  justify-content: center;
+  margin: 0 auto;
+  font-size: 2rem;
+}
+
+.social_icons > * {
+  flex: 1;
+}
+
+.social_icons a {
+  color: slategray;
 }
 
 /*# sourceMappingURL=index.css.map */
