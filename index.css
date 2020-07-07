@@ -112,7 +112,7 @@ button.hamburger {
   background-size: cover;
 }
 
-.container {
+.hero .container {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -197,7 +197,7 @@ h2 {
   width: 100%;
 }
 
-.uses .container {
+.contact .container, .work .container, .uses .container {
   max-width: 1280px;
   width: 85%;
   margin: 0 auto;

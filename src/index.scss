@@ -95,7 +95,7 @@ button.hamburger {
   background-size: cover;
 }
 
-.container {
+.hero .container {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -187,10 +187,14 @@ h2 {
   width: 100%;
 }
 
-.uses .container {
+%content_container {
   max-width: 1280px;
   width: 85%;
   margin: 0 auto;
+}
+
+.uses .container {
+  @extend %content_container;
 }
 
 .fitebase_icon {
@@ -234,4 +238,12 @@ h2 {
   font-size: 1rem;
   margin-top: 1rem;
   text-shadow: none;
+}
+
+.work .container {
+  @extend %content_container;
+}
+
+.contact .container {
+  @extend %content_container;
 }
