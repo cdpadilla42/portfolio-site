@@ -182,8 +182,33 @@ h2 {
     padding: 1rem;
   }
 }
+.uses {
+  background-color: salmon;
+}
+
+.uses .container {
+  max-width: 1280px;
+  width: 85%;
+  margin: 0 auto;
+}
+
 .fitebase_icon {
   height: 20px;
+}
+
+.uses__icons {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(4, minmax(125px, 1fr));
+}
+
+@media all and (max-width: 1045px) {
+  .uses__icons {
+    grid-template-columns: repeat(auto-fit, minmax(125px, 1fr));
+  }
+}
+.uses__icons > * {
+  border: 1px solid green;
 }
 
 /*# sourceMappingURL=index.css.map */
