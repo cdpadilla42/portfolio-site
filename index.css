@@ -124,7 +124,7 @@ button.hamburger {
   text-align: center;
 }
 
-h2, .hero h1 {
+.icons__icon, h2, .hero h1 {
   color: slategray;
   text-shadow: 2px 1px 0 white, 4px 3px 0 slateblue;
 }
@@ -182,8 +182,19 @@ h2 {
     padding: 1rem;
   }
 }
+.section_heading {
+  font-size: 3rem;
+  text-align: center;
+}
+
 .uses {
   background-color: salmon;
+  padding-bottom: 5rem;
+  color: #22272c;
+}
+
+.uses hr {
+  width: 100%;
 }
 
 .uses .container {
@@ -228,6 +239,8 @@ h2 {
 
 .icon__title {
   font-size: 1rem;
+  margin-top: 1rem;
+  text-shadow: none;
 }
 
 /*# sourceMappingURL=index.css.map */

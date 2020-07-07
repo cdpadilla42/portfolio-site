@@ -170,10 +170,21 @@ h2 {
   }
 }
 
+.section_heading {
+  font-size: 3rem;
+  text-align: center;
+}
+
 // Uses
 
 .uses {
   background-color: salmon;
+  padding-bottom: 5rem;
+  color: rgb(34, 39, 44);
+}
+
+.uses hr {
+  width: 100%;
 }
 
 .uses .container {
@@ -211,6 +222,7 @@ h2 {
 }
 
 .icons__icon {
+  @extend %stylish_heding;
   font-size: 5rem;
   display: flex;
   flex-direction: column;
@@ -220,4 +232,6 @@ h2 {
 
 .icon__title {
   font-size: 1rem;
+  margin-top: 1rem;
+  text-shadow: none;
 }
