@@ -1,5 +1,11 @@
 @use 'base';
 
+$purple: #4d4762;
+$cream: #fcf6f3;
+$red: #ff8f7c;
+$yellow: #ffcb75;
+$green: #75ddc6;
+
 body {
   font-family: 'Poppins', sans-serif;
 }
@@ -108,8 +114,8 @@ button.hamburger {
 }
 
 %stylish_heding {
-  color: #4d4762;
-  text-shadow: 2px 1px 0 #fcf6f3, 4px 3px 0 #ff8f7c;
+  color: $purple;
+  text-shadow: 2px 1px 0 $cream, 4px 3px 0 $red;
 }
 
 .hero h1 {
