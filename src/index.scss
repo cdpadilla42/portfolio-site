@@ -90,7 +90,7 @@ button.hamburger {
 .hero {
   width: 100vw;
   height: 100vh;
-  background: url('../assets/3661950.jpg');
+  background: url('../assets/3860345.jpg');
   background-position: center;
   background-size: cover;
 }
@@ -108,8 +108,8 @@ button.hamburger {
 }
 
 %stylish_heding {
-  color: slategray;
-  text-shadow: 2px 1px 0 white, 4px 3px 0 slateblue;
+  color: #4d4762;
+  text-shadow: 2px 1px 0 #fcf6f3, 4px 3px 0 #ff8f7c;
 }
 
 .hero h1 {
@@ -121,7 +121,7 @@ button.hamburger {
 .hero h2 {
   margin: 0;
   margin-top: 0.5rem;
-  color: slategray;
+  color: #4d4762;
 }
 
 /* About */
@@ -139,7 +139,7 @@ button.hamburger {
   margin-top: 5rem;
 }
 
-h2 {
+.about h2 {
   @extend %stylish_heding;
   color: black;
 }
@@ -178,7 +178,7 @@ h2 {
 // Uses
 
 .uses {
-  background-color: salmon;
+  background-color: #455dff;
   padding-bottom: 5rem;
   color: rgb(34, 39, 44);
 }
