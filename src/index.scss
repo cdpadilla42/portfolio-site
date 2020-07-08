@@ -90,7 +90,7 @@ button.hamburger {
 .hero {
   width: 100vw;
   height: 100vh;
-  background: url('./assets/hero.jpg');
+  background: url('../assets/3661950.jpg');
   background-position: center;
   background-size: cover;
 }
@@ -249,6 +249,10 @@ h2 {
   background-color: pink;
 }
 
+.contact h6 {
+  font-size: 1rem;
+}
+
 .contact .container {
   @extend %content_container;
 }
@@ -271,6 +275,8 @@ h2 {
 }
 
 .contact_form {
+  padding-bottom: 2rem;
+
   input,
   textarea {
     width: 100%;
@@ -283,4 +289,21 @@ h2 {
   textarea {
     resize: none;
   }
+
+  textarea:focus,
+  input:focus {
+    outline: none;
+    box-shadow: 0px 0px 5px lightblue;
+  }
+
+  button {
+    margin-top: 1rem;
+    background-color: green;
+    padding: 1rem 3rem;
+  }
+}
+
+footer {
+  padding: 1rem 0;
+  text-align: center;
 }
