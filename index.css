@@ -43,13 +43,11 @@ ul {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: #403c52;
+  background-color: #4d4762;
   text-align: center;
-  width: 80vw;
-  height: 70vh;
+  width: 70vw;
+  height: 50vh;
   padding: 0 1rem;
-  border-radius: 10px;
-  border: 1px dotted #ffcb75;
 }
 
 .about h2, .icons__icon, .social_icons, .hero h1 {

@@ -34,13 +34,13 @@ $green: #75ddc6;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: rgb(64, 60, 82, 1);
+  background-color: $purple;
   text-align: center;
-  width: 80vw;
-  height: 70vh;
+  width: 70vw;
+  height: 50vh;
   padding: 0 1rem;
-  border-radius: 10px;
-  border: 1px dotted $yellow;
+  // border: 5px dotted $yellow;
+  // border: 1px solid $yellow;
   // border-radius: 50%;
 }
 
