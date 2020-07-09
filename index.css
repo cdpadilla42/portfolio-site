@@ -248,6 +248,23 @@ button.hamburger {
   background-color: #fcf6f3;
 }
 
+.connect__flex_wrap {
+  display: flex;
+}
+
+.connect__flex_wrap > *:first-child {
+  flex: 1;
+}
+
+.connect__flex_wrap > *:last-child {
+  flex: 2;
+}
+
+@media all and (max-width: 996px) {
+  .connect__flex_wrap {
+    flex-direction: column;
+  }
+}
 .contact h6 {
   font-size: 1rem;
 }
@@ -270,6 +287,7 @@ button.hamburger {
 
 .contact_form {
   padding-bottom: 2rem;
+  padding: 0 2rem;
 }
 .contact_form input,
 .contact_form textarea {
@@ -278,6 +296,21 @@ button.hamburger {
   margin: 0.5rem 0;
   border: 1px solid #bbbbbb;
   border-radius: 3px;
+}
+.contact_form .flex-wrap {
+  display: flex;
+  flex-direction: column;
+}
+@media all and (min-width: 996px) {
+  .contact_form .flex-wrap {
+    flex-direction: row;
+  }
+  .contact_form .flex-wrap > input:first-child {
+    margin-right: 0.5rem;
+  }
+  .contact_form .flex-wrap > input:last-child {
+    margin-left: 0.5rem;
+  }
 }
 .contact_form textarea {
   resize: none;

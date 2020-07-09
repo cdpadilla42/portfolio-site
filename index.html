@@ -181,55 +181,74 @@
         <h4>What I Use</h4>
         <h2 class="section_heading">Skills & Tools</h2>
         <hr />
-        <h6>Connect With Me</h6>
-        <p>Thanks for visiting!</p>
-        <p>
-          If you're interested in collborating on a project or looking to chat
-          further, please feel free to contact me. I'd love to hear from you!
-        </p>
-        <ul class="social_icons">
-          <li class="social_icon">
-            <a href="mailto:cdpadillapub@gmail.com"
-              ><i class="far fa-envelope"></i
-            ></a>
-          </li>
-          <!-- <li class="social_icon"><i class="fab fa-twitter"></i></li> -->
-          <li class="social_icon">
-            <a href="https://github.com/cdpadilla42" target="_blank"
-              ><i class="fab fa-github"></i
-            ></a>
-          </li>
-          <!-- <li class="social_icon">Medium</li> -->
-          <li class="social_icon">
-            <a
-              href="https://www.linkedin.com/in/chris-padilla-b30441121/"
-              target="_blank"
-              ><i class="fab fa-linkedin-in"></i
-            ></a>
-          </li>
-        </ul>
-        <h6>Message Me</h6>
-        <form
-          action="https://formspree.io/xleppven"
-          method="POST"
-          class="contact_form"
-        >
-          <input type="text" name="name" placeholder="Your Name*" required />
-          <input type="email" name="email" placeholder="Your Email*" required />
-          <input
-            type="text"
-            name="subject"
-            placeholder="Your Subject*"
-            required
-          />
-          <textarea
-            name="message"
-            cols="30"
-            rows="10"
-            placeholder="Your Message*"
-          ></textarea>
-          <button type="submit">Send</button>
-        </form>
+        <div class="connect__flex_wrap">
+          <div class="connect_flex__text_prompt">
+            <h6>Connect With Me</h6>
+            <p>Thanks for visiting!</p>
+            <p>
+              If you're interested in collborating on a project or looking to
+              chat further, please feel free to contact me. I'd love to hear
+              from you!
+            </p>
+            <ul class="social_icons">
+              <li class="social_icon">
+                <a href="mailto:cdpadillapub@gmail.com"
+                  ><i class="far fa-envelope"></i
+                ></a>
+              </li>
+              <!-- <li class="social_icon"><i class="fab fa-twitter"></i></li> -->
+              <li class="social_icon">
+                <a href="https://github.com/cdpadilla42" target="_blank"
+                  ><i class="fab fa-github"></i
+                ></a>
+              </li>
+              <!-- <li class="social_icon">Medium</li> -->
+              <li class="social_icon">
+                <a
+                  href="https://www.linkedin.com/in/chris-padilla-b30441121/"
+                  target="_blank"
+                  ><i class="fab fa-linkedin-in"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+          <div class="connect_flex__form_section">
+            <h6>Message Me</h6>
+            <form
+              action="https://formspree.io/xleppven"
+              method="POST"
+              class="contact_form"
+            >
+              <div class="flex-wrap">
+                <input
+                  type="text"
+                  name="name"
+                  placeholder="Your Name*"
+                  required
+                />
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="Your Email*"
+                  required
+                />
+              </div>
+              <input
+                type="text"
+                name="subject"
+                placeholder="Your Subject*"
+                required
+              />
+              <textarea
+                name="message"
+                cols="30"
+                rows="10"
+                placeholder="Your Message*"
+              ></textarea>
+              <button type="submit">Send</button>
+            </form>
+          </div>
+        </div>
       </div>
     </section>
     <footer>
