@@ -366,6 +366,13 @@ button.hamburger {
   }
 }
 
+@media all and (max-width: 996px) {
+  .connect_flex__form_section {
+    padding: 0;
+    width: 100%;
+  }
+}
+
 footer {
   padding: 1rem 0;
   text-align: center;
