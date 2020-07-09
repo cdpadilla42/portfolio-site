@@ -152,7 +152,7 @@ button.hamburger {
 
 .about__image {
   margin-top: 5rem;
-  flex: 1;
+  padding-right: 2rem;
 }
 .about__image img {
   width: 300px;
@@ -166,12 +166,17 @@ button.hamburger {
 .about__description {
   padding: 3rem 0;
   padding-right: 3rem;
-  flex: 1;
+  flex-basis: 500px;
+  text-align: start;
 }
 
 @media all and (max-width: 960px) {
   .about {
     flex-direction: column;
+  }
+
+  .about__image {
+    padding: 0;
   }
 
   .about__description {
