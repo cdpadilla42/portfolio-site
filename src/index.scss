@@ -8,6 +8,7 @@ $green: #75ddc6;
 
 body {
   font-family: 'Poppins', sans-serif;
+  background-color: $cream;
 }
 
 ::selection {
@@ -135,7 +136,7 @@ button.hamburger {
 .hero h2 {
   margin: 0;
   margin-top: 0.5rem;
-  color: #4d4762;
+  color: $cream;
 }
 
 /* About */
@@ -162,7 +163,11 @@ button.hamburger {
 
 .about h2 {
   @extend %stylish_heding;
-  color: black;
+  color: $purple;
+}
+
+.about a {
+  color: $red;
 }
 
 .about__description {
@@ -171,6 +176,8 @@ button.hamburger {
   padding-right: 3rem;
   flex-basis: 500px;
   text-align: start;
+
+  color: $purple;
 }
 
 @media all and (max-width: 960px) {
@@ -204,10 +211,10 @@ button.hamburger {
 // Uses
 
 .uses {
-  background-color: $cream;
+  background-color: $purple;
   padding-top: 2rem;
   padding-bottom: 5rem;
-  color: rgb(34, 39, 44);
+  color: $cream;
 }
 
 .uses hr {
@@ -249,10 +256,6 @@ button.hamburger {
   }
 }
 
-.uses__icons > * {
-  border: 1px solid green;
-}
-
 .icons__icon {
   @extend %stylish_heding;
   font-size: 5rem;
@@ -273,7 +276,8 @@ button.hamburger {
 }
 
 .contact {
-  background-color: $cream;
+  background-color: $purple;
+  color: $cream;
 }
 
 .connect__flex_wrap {

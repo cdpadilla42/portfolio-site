@@ -21,6 +21,7 @@ ul {
 
 body {
   font-family: "Poppins", sans-serif;
+  background-color: #fcf6f3;
 }
 
 ::selection {
@@ -140,7 +141,7 @@ button.hamburger {
 .hero h2 {
   margin: 0;
   margin-top: 0.5rem;
-  color: #4d4762;
+  color: #fcf6f3;
 }
 
 /* About */
@@ -164,7 +165,11 @@ button.hamburger {
 }
 
 .about h2 {
-  color: black;
+  color: #4d4762;
+}
+
+.about a {
+  color: #ff8f7c;
 }
 
 .about__description {
@@ -172,6 +177,7 @@ button.hamburger {
   padding-right: 3rem;
   flex-basis: 500px;
   text-align: start;
+  color: #4d4762;
 }
 
 @media all and (max-width: 960px) {
@@ -201,10 +207,10 @@ button.hamburger {
 }
 
 .uses {
-  background-color: #fcf6f3;
+  background-color: #4d4762;
   padding-top: 2rem;
   padding-bottom: 5rem;
-  color: #22272c;
+  color: #fcf6f3;
 }
 
 .uses hr {
@@ -240,10 +246,6 @@ button.hamburger {
     padding: 0 5rem;
   }
 }
-.uses__icons > * {
-  border: 1px solid green;
-}
-
 .icons__icon {
   font-size: 5rem;
   display: flex;
@@ -259,7 +261,8 @@ button.hamburger {
 }
 
 .contact {
-  background-color: #fcf6f3;
+  background-color: #4d4762;
+  color: #fcf6f3;
 }
 
 .connect__flex_wrap {
