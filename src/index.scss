@@ -11,6 +11,11 @@ body {
   background-color: $cream;
 }
 
+hr {
+  border: none;
+  border-top: 5px dotted $yellow;
+}
+
 ::selection {
   background: rgba(79, 201, 204, 0.6);
 }
@@ -239,6 +244,7 @@ button.hamburger {
 .uses__icons {
   display: grid;
   width: 100%;
+  margin-top: 3rem;
   padding: 0 10rem;
   grid-template-columns: repeat(4, minmax(125px, 1fr));
   gap: 1rem;
@@ -253,6 +259,12 @@ button.hamburger {
 @media all and (max-width: 1040px) {
   .uses__icons {
     padding: 0 5rem;
+  }
+}
+
+@media all and (max-width: 960px) {
+  .uses__icons {
+    padding: 0 2rem;
   }
 }
 
@@ -271,6 +283,10 @@ button.hamburger {
   text-shadow: none;
 }
 
+.work {
+  padding: 2rem 0;
+}
+
 .work .container {
   @extend %content_container;
 }
@@ -278,6 +294,7 @@ button.hamburger {
 .contact {
   background-color: $purple;
   color: $cream;
+  padding: 2rem 0;
 }
 
 .connect__flex_wrap {
@@ -339,7 +356,7 @@ button.hamburger {
 }
 
 .social_icons a {
-  color: slategray;
+  color: $green;
 }
 
 .contact_form {
