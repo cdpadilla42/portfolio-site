@@ -125,8 +125,8 @@ button.hamburger {
 }
 
 .social_icons, .icons__icon, .about h2, .hero h1 {
-  color: #75ddc6;
-  text-shadow: 2px 1px 0 #fcf6f3, 4px 3px 0 #ff8f7c;
+  color: #ff8f7c;
+  text-shadow: 2px 1px 0 #fcf6f3, 4px 3px 0 #75ddc6;
 }
 
 .hero h1 {
@@ -152,6 +152,7 @@ button.hamburger {
 
 .about__image {
   margin-top: 5rem;
+  flex: 1;
 }
 .about__image img {
   width: 300px;
@@ -163,8 +164,9 @@ button.hamburger {
 }
 
 .about__description {
-  max-width: 500px;
-  padding: 3rem;
+  padding: 3rem 0;
+  padding-right: 3rem;
+  flex: 1;
 }
 
 @media all and (max-width: 960px) {
@@ -175,6 +177,7 @@ button.hamburger {
   .about__description {
     margin: 0 auto;
     padding: 0;
+    max-width: 500px;
   }
 }
 @media all and (max-width: 768px) {

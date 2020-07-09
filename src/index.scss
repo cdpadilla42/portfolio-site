@@ -114,8 +114,8 @@ button.hamburger {
 }
 
 %stylish_heding {
-  color: $green;
-  text-shadow: 2px 1px 0 $cream, 4px 3px 0 $red;
+  color: $red;
+  text-shadow: 2px 1px 0 $cream, 4px 3px 0 $green;
 }
 
 .hero h1 {
@@ -143,6 +143,7 @@ button.hamburger {
 
 .about__image {
   margin-top: 5rem;
+  flex: 1;
 
   img {
     width: 300px;
@@ -156,8 +157,10 @@ button.hamburger {
 }
 
 .about__description {
-  max-width: 500px;
-  padding: 3rem;
+  // max-width: 500px;
+  padding: 3rem 0;
+  padding-right: 3rem;
+  flex: 1;
 }
 
 @media all and (max-width: 960px) {
@@ -168,6 +171,7 @@ button.hamburger {
   .about__description {
     margin: 0 auto;
     padding: 0;
+    max-width: 500px;
   }
 }
 
