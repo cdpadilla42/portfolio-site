@@ -303,8 +303,8 @@ button.hamburger {
 }
 
 .contact_form {
-  padding-bottom: 2rem;
   padding: 0 2rem;
+  padding-bottom: 2rem;
 }
 .contact_form input,
 .contact_form textarea {
@@ -339,8 +339,19 @@ button.hamburger {
 }
 .contact_form button {
   margin-top: 1rem;
-  background-color: green;
-  padding: 1rem 3rem;
+  color: white;
+  font-size: 1rem;
+  text-transform: uppercase;
+  padding: 0.8rem 3rem;
+  background-color: #ff8f7c;
+  border: 5px solid white;
+  outline: 3px solid #ff8f7c;
+}
+.contact_form .button_backdrop {
+  display: inline-block;
+  padding: 0.2rem;
+  background-color: #ff8f7c;
+  height: 3rem;
 }
 
 @media all and (max-width: 996px) {
