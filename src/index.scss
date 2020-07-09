@@ -143,6 +143,11 @@ button.hamburger {
 
 .about__image {
   margin-top: 5rem;
+
+  img {
+    width: 300px;
+    border-radius: 50%;
+  }
 }
 
 .about h2 {
@@ -359,15 +364,19 @@ button.hamburger {
     box-shadow: 0px 0px 5px lightblue;
   }
 
+  textarea {
+    font-family: 'Poppins', sans-serif;
+  }
+
   button {
     margin-top: 1rem;
     color: white;
     font-size: 1rem;
     text-transform: uppercase;
     padding: 0.8rem 3rem;
-    background-color: $red;
+    background-color: $green;
     border: 5px solid white;
-    outline: 3px solid $red;
+    outline: 3px solid $green;
   }
 
   .button_backdrop {

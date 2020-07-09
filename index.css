@@ -153,6 +153,10 @@ button.hamburger {
 .about__image {
   margin-top: 5rem;
 }
+.about__image img {
+  width: 300px;
+  border-radius: 50%;
+}
 
 .about h2 {
   color: black;
@@ -337,15 +341,18 @@ button.hamburger {
   outline: none;
   box-shadow: 0px 0px 5px lightblue;
 }
+.contact_form textarea {
+  font-family: "Poppins", sans-serif;
+}
 .contact_form button {
   margin-top: 1rem;
   color: white;
   font-size: 1rem;
   text-transform: uppercase;
   padding: 0.8rem 3rem;
-  background-color: #ff8f7c;
+  background-color: #75ddc6;
   border: 5px solid white;
-  outline: 3px solid #ff8f7c;
+  outline: 3px solid #75ddc6;
 }
 .contact_form .button_backdrop {
   display: inline-block;
