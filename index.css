@@ -107,7 +107,7 @@ button.hamburger {
 .hero {
   width: 100vw;
   height: 100vh;
-  background: url("../assets/3860345.jpg");
+  background: url("./assets/3860345.jpg");
   background-position: center;
   background-size: cover;
 }
