@@ -252,10 +252,22 @@ button.hamburger {
   display: flex;
 }
 
-.connect__flex_wrap > *:first-child {
+.connect_flex__text_prompt {
   flex: 1;
+  width: 60%;
+  text-align: left;
 }
 
+@media all and (min-width: 1050px) {
+  .connect_flex__text_prompt {
+    width: 40%;
+  }
+}
+@media all and (max-width: 565px) {
+  .connect_flex__text_prompt {
+    width: 100%;
+  }
+}
 .connect__flex_wrap > *:last-child {
   flex: 2;
 }
@@ -263,6 +275,11 @@ button.hamburger {
 @media all and (max-width: 996px) {
   .connect__flex_wrap {
     flex-direction: column;
+    align-items: center;
+  }
+
+  .connect_flex__text_prompt {
+    text-align: center;
   }
 }
 .contact h6 {
