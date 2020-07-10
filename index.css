@@ -50,7 +50,10 @@ ul {
   padding: 0 1rem;
 }
 
-.about h2, .icons__icon, .social_icons, .hero h1 {
+.about h2,
+.work h2,
+.uses h2,
+.contact h2, .icons__icon, .social_icons, .hero h1 {
   color: #75ddc6;
   text-shadow: 2px 1px 0 #fcf6f3, 4px 3px 0 #ff8f7c;
 }
@@ -177,8 +180,14 @@ button.hamburger {
   border-radius: 50%;
 }
 
-.about h2 {
+.about h2,
+.work h2 {
   color: #4d4762;
+}
+
+.contact h2,
+.uses h2 {
+  color: #fcf6f3;
 }
 
 .about a {
@@ -286,6 +295,10 @@ button.hamburger {
 
 .work__preview img {
   width: 100%;
+}
+
+.work h4 {
+  color: #4d4762;
 }
 
 .contact {

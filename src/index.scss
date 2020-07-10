@@ -123,9 +123,21 @@ button.hamburger {
   }
 }
 
-.about h2 {
+.about h2,
+.work h2,
+.uses h2,
+.contact h2 {
   @extend %stylish_heading;
+}
+
+.about h2,
+.work h2 {
   color: $purple;
+}
+
+.contact h2,
+.uses h2 {
+  color: $cream;
 }
 
 .about a {
@@ -251,6 +263,10 @@ button.hamburger {
 
 .work .container {
   @extend %content_container;
+}
+
+.work h4 {
+  color: $purple;
 }
 
 .contact {
