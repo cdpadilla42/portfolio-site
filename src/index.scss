@@ -124,7 +124,7 @@ button.hamburger {
 }
 
 .about h2 {
-  @extend %stylish_heding;
+  @extend %stylish_heading;
   color: $purple;
 }
 
@@ -226,7 +226,8 @@ button.hamburger {
 }
 
 .icons__icon {
-  @extend %stylish_heding;
+  @extend %stylish_heading;
+  text-shadow: 2px 1px 0 $cream;
   font-size: 5rem;
   display: flex;
   flex-direction: column;
@@ -304,7 +305,8 @@ button.hamburger {
 }
 
 .social_icons {
-  @extend %stylish_heding;
+  @extend %stylish_heading;
+  text-shadow: 2px 1px 0 $cream;
   display: flex;
   width: 200px;
   justify-content: center;

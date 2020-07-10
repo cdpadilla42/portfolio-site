@@ -45,8 +45,8 @@ ul {
   justify-content: center;
   background-color: #4d4762;
   text-align: center;
-  width: 70vw;
-  height: 50vh;
+  width: 80vw;
+  height: 60vh;
   padding: 0 1rem;
 }
 
@@ -266,6 +266,7 @@ button.hamburger {
   }
 }
 .icons__icon {
+  text-shadow: 2px 1px 0 #fcf6f3;
   font-size: 5rem;
   display: flex;
   flex-direction: column;
@@ -332,6 +333,7 @@ button.hamburger {
 }
 
 .social_icons {
+  text-shadow: 2px 1px 0 #fcf6f3;
   display: flex;
   width: 200px;
   justify-content: center;

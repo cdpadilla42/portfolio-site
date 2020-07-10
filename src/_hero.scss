@@ -36,21 +36,21 @@ $green: #75ddc6;
   justify-content: center;
   background-color: $purple;
   text-align: center;
-  width: 70vw;
-  height: 50vh;
+  width: 80vw;
+  height: 60vh;
   padding: 0 1rem;
   // border: 5px dotted $yellow;
   // border: 1px solid $yellow;
   // border-radius: 50%;
 }
 
-%stylish_heding {
+%stylish_heading {
   color: $green;
   text-shadow: 2px 1px 0 $cream, 4px 3px 0 $red;
 }
 
 .hero h1 {
-  @extend %stylish_heding;
+  @extend %stylish_heading;
   font-size: 4rem;
   font-style: italic;
 }
