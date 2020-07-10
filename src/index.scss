@@ -320,6 +320,11 @@ button.hamburger {
 
 .social_icons a {
   color: $green;
+  transition: color 0.4s ease;
+}
+
+.social_icons a:hover {
+  color: $yellow;
 }
 
 .contact_form {
@@ -377,13 +382,12 @@ button.hamburger {
     background-color: $green;
     border: 5px solid white;
     outline: 3px solid $green;
+    transition: background-color 0.4s ease, outline 0.4s ease;
   }
 
-  .button_backdrop {
-    display: inline-block;
-    padding: 0.2rem;
-    background-color: $red;
-    height: 3rem;
+  button:hover {
+    background-color: $yellow;
+    outline: 3px solid $yellow;
   }
 }
 

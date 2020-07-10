@@ -347,6 +347,11 @@ button.hamburger {
 
 .social_icons a {
   color: #75ddc6;
+  transition: color 0.4s ease;
+}
+
+.social_icons a:hover {
+  color: #ffcb75;
 }
 
 .contact_form {
@@ -396,12 +401,11 @@ button.hamburger {
   background-color: #75ddc6;
   border: 5px solid white;
   outline: 3px solid #75ddc6;
+  transition: background-color 0.4s ease, outline 0.4s ease;
 }
-.contact_form .button_backdrop {
-  display: inline-block;
-  padding: 0.2rem;
-  background-color: #ff8f7c;
-  height: 3rem;
+.contact_form button:hover {
+  background-color: #ffcb75;
+  outline: 3px solid #ffcb75;
 }
 
 @media all and (max-width: 996px) {
