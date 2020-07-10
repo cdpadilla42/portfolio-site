@@ -53,7 +53,7 @@ ul {
 .about h2,
 .work h2,
 .uses h2,
-.contact h2, .icons__icon, .social_icons, .hero h1 {
+.contact h2, .firebase_icon, .icons__icon, .social_icons, .hero h1 {
   color: #75ddc6;
   text-shadow: 2px 1px 0 #fcf6f3, 4px 3px 0 #ff8f7c;
 }
@@ -246,8 +246,9 @@ button.hamburger {
   text-align: center;
 }
 
-.fitebase_icon {
-  height: 20px;
+.firebase_icon {
+  height: 5.1875rem;
+  filter: drop-shadow(2px 1px 0 #fcf6f3);
 }
 
 .uses__icons {

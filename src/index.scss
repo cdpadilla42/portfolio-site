@@ -206,8 +206,10 @@ button.hamburger {
   @extend %content_container;
 }
 
-.fitebase_icon {
-  height: 20px;
+.firebase_icon {
+  height: 5.1875rem;
+  @extend %stylish_heading;
+  filter: drop-shadow(2px 1px 0 $cream);
 }
 
 .uses__icons {
