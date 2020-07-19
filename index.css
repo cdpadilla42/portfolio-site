@@ -48,6 +48,13 @@ ul {
   width: 80vw;
   height: 60vh;
   padding: 0 1rem;
+  transform: translateY(0);
+  opacity: 1;
+  transition: opacity 1.6s ease, transform 1.6s ease;
+}
+.hero__text_greeting.pre-animation {
+  opacity: 0;
+  transform: translateY(3rem);
 }
 
 .about h2,

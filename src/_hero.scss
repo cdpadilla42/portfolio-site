@@ -42,6 +42,14 @@ $green: #75ddc6;
   // border: 5px dotted $yellow;
   // border: 1px solid $yellow;
   // border-radius: 50%;
+  transform: translateY(0);
+  opacity: 1;
+  transition: opacity 1.6s ease, transform 1.6s ease;
+
+  &.pre-animation {
+    opacity: 0;
+    transform: translateY(3rem);
+  }
 }
 
 %stylish_heading {
