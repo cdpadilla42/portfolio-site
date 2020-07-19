@@ -258,6 +258,13 @@ button.hamburger {
   padding: 0 10rem;
   grid-template-columns: repeat(4, minmax(125px, 1fr));
   gap: 1rem;
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+.uses__icons.pre-animation {
+  opacity: 0;
+  transform: translateY(4rem);
 }
 
 @media all and (max-width: 1045px) {
