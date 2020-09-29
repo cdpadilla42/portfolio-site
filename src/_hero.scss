@@ -63,6 +63,17 @@ $green: #75ddc6;
   font-style: italic;
 }
 
+@media all and (max-width: 600px) {
+  .hero {
+    h1 {
+      font-size: 2rem;
+    }
+    h2 {
+      font-size: 1rem;
+    }
+  }
+}
+
 .hero h2 {
   margin: 0;
   margin-top: 0.5rem;

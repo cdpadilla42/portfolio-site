@@ -287,9 +287,25 @@ button.hamburger {
 }
 
 .work__preview img {
+  width: 100%;
   max-width: 500px;
   max-height: 505px;
   padding-right: 2rem;
+}
+
+@media all and(max-width: 960px) {
+  .work__preview img {
+    padding-right: 0;
+  }
+
+  .work__description {
+    padding: 0;
+    flex-basis: 0;
+  }
+
+  .work__info {
+    padding-bottom: 0;
+  }
 }
 
 .work .container {
