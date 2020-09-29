@@ -318,6 +318,9 @@ a {
 .work {
   padding: 2rem 0;
 }
+.work h5 {
+  font-size: 1.2rem;
+}
 .work__info, .work__info.flipped {
   margin-top: 2rem;
 }

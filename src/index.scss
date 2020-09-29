@@ -272,6 +272,10 @@ a {
 .work {
   padding: 2rem 0;
 
+  h5 {
+    font-size: 1.2rem;
+  }
+
   &__info,
   &__info.flipped {
     @extend %flex-container;
