@@ -265,16 +265,31 @@ button.hamburger {
   text-shadow: none;
 }
 
+.flipped {
+  flex-direction: row-reverse;
+}
+
 .work {
   padding: 2rem 0;
 
-  &__info {
+  &__info,
+  &__info.flipped {
     @extend %flex-container;
+    margin-top: 2rem;
+  }
+
+  &__description {
+    padding: 3rem 0;
+    padding-right: 3rem;
+    flex-basis: 500px;
+    text-align: start;
   }
 }
 
 .work__preview img {
-  width: 100%;
+  max-width: 500px;
+  max-height: 505px;
+  padding-right: 2rem;
 }
 
 .work .container {
