@@ -99,11 +99,9 @@ button.hamburger {
   color: salmon;
 }
 
-/* Hero */
-
 /* About */
 
-.about {
+%flex-container {
   text-align: center;
   display: flex;
   justify-content: center;
@@ -111,6 +109,10 @@ button.hamburger {
   max-width: 1200px;
   margin: 0 auto;
   padding-bottom: 3rem;
+}
+
+.about {
+  @extend %flex-container;
 }
 
 .about__image {
@@ -155,7 +157,7 @@ button.hamburger {
 }
 
 @media all and (max-width: 960px) {
-  .about {
+  %flex-container {
     flex-direction: column;
   }
 
@@ -265,6 +267,10 @@ button.hamburger {
 
 .work {
   padding: 2rem 0;
+
+  &__info {
+    @extend %flex-container;
+  }
 }
 
 .work__preview img {
