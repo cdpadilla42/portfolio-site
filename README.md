@@ -6,7 +6,9 @@ Here lives the code for my portfolio site! It's primarily an SCSS project with l
 
 Tech used:
 
--
+- SCSS
+- Vanilla JavaScript
+- HTML
 
 ## Vanilla JS - Intersection Observers
 
