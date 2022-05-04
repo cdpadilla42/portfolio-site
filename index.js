@@ -20,7 +20,6 @@ function animateOnLeaving(element, triggerEl) {
   const ob = new IntersectionObserver(toggleAnimation);
 
   function toggleAnimation(payload) {
-    console.log(payload[0].intersectionRatio);
     if (payload[0].isIntersecting) {
       element.classList.remove('pre-animation');
     } else {
